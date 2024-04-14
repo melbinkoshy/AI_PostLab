@@ -1,0 +1,35 @@
+Melbin_9555_BatchB
+1. List all the methods which could be used to solve the tower of Hanoi problem.
+-> The Tower of Hanoi problem is a classic puzzle involving a set of disks and three rods. The goal is to move all the disks from one rod to another, obeying certain rules. Various methods can be used to solve this problem:
+
+    Recursive Solution: This is the most common method for solving the Tower of Hanoi. It involves breaking down the problem into smaller subproblems, moving a smaller stack of disks, and then applying the same strategy recursively.
+
+    Iterative Solution: This method uses loops instead of recursion to solve the problem. It typically involves simulating the steps required for the smallest possible moves and then incrementally solving for larger numbers of disks.
+
+    Closed-form Expression: For calculating the minimum number of moves required (but not the actual sequence of moves), there is a mathematical formula: 2n−12n−1, where nn is the number of disks.
+
+    Dynamic Programming: While not commonly used due to the overhead compared to the recursive approach, dynamic programming can be adapted to memorize and reuse results of subproblems in some modified versions of the problem.
+
+    Non-recursive, Non-iterative Algorithms: Such algorithms use data structures like stacks to mimic the recursive calls stack and efficiently manage the sequence of moves.
+
+2. Which isthe best approach and why?
+-> The recursive approach is generally considered the best method for solving the Tower of Hanoi problem for a few key reasons:
+
+    Simplicity: The recursive solution is straightforward and easy to understand. It elegantly captures the essence of the problem, which inherently consists of moving smaller sub-stacks of disks.
+
+    Minimal Code: Recursive solutions are usually concise. The logic to move disks from source to destination using a temporary rod can be implemented in just a few lines of code.
+
+    Direct Mapping to the Problem Definition: The recursive method directly mirrors the recursive nature of the problem, where solving a larger problem depends on solving smaller instances of the same problem.
+
+3. What are the applications of the Tower of Hanoi?
+->  The Tower of Hanoi is not just a puzzle but also has practical and theoretical applications in various fields:
+
+    Computer Science Education: It is frequently used to teach recursive algorithms and problem-solving techniques in computer science classes.
+
+    Psychology: The Tower of Hanoi is used in psychological research to study problem-solving skills, planning, and the cognitive development of individuals.
+
+    Mathematics: It helps in exploring concepts of recursion, mathematical induction, and the properties of exponential functions.
+
+    Computer Applications: The problem is analogous to certain tasks in data structures (like tree traversals), algorithms (like divide and conquer), and systems (such as managing hierarchical storage systems).
+
+    Neuroscience: The puzzle is used in neuropsychological tests to assess executive functions, particularly in patients with brain injuries or degenerative brain diseases.
